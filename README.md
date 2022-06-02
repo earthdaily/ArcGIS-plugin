@@ -16,16 +16,16 @@
   <h1 align="center">ArcGIS Plugin</h3>
 
   <p align="center">
-    To be able to discover, request and use imagery products based on <geosys/> virtual constellation within QGIS, using the &ltgeosys/&gt API.
+    To be able to discover, request and use imagery products based on <geosys/> virtual constellation within ArcGIS Pro, using the &ltgeosys/&gt API.
     <br />
     <a href="https://earthdailyagro.com/"><strong>Who we are</strong></a>
     <br />
     <br />
-    <a href="https://github.com/GEOSYS/ArcGIS-Plugin>Project description</a>
+    <a href="https://github.com/GEOSYS/ArcGIS-plugin>Project description</a>
     ·
-    <a href="https://github.com/GEOSYS/ArcGIS-Plugin/issues">Report Bug</a>
+    <a href="https://github.com/GEOSYS/ArcGIS-plugin/issues">Report Bug</a>
     ·
-    <a href="https://github.com/GEOSYS/ArcGIS-Plugin/issues">Request Feature</a>
+    <a href="https://github.com/GEOSYS/ArcGIS-plugin/issues">Request Feature</a>
   </p>
 </p>
 
@@ -97,15 +97,15 @@ The ArcGIS Pro plugin project aims to provide an easy and ready to use connector
 
 ### Prerequisites
 
-To be able to get maps within QGIS, please make sure you have valid credentials. If you need to get trial access, please register [here](https://earthdailyagro.com/geosys-api/#get-started).
+To be able to get maps within ArcGIS Pro, please make sure you have valid credentials. If you need to get trial access, please register [here](https://earthdailyagro.com/geosys-api/#get-started).
 
-This project has been testes with QGIS 3.22.3
+This project has been testes with ArcGIS xxxx
 
 ### Installation
 
-1. Within the QGIS plugin manager as described [here](https://developer.geosys.com/docs/qgis-plugin-doc/ZG9jOjY3MzU0OQ-installation)
+1. Within the ArcGIS 
    
-2. Manual install by download a zip of the project and use the manual plugin install from QGIS. Please see https://docs.qgis.org/3.4/en/docs/user_manual/plugins/plugins.html#the-install-from-zip-tab
+2. Manual install
    
 <p align="right">(<a href="#top">back to top</a>)</p>
    
@@ -114,7 +114,7 @@ This project has been testes with QGIS 3.22.3
 
 The plugin once configured provides an easy way to get satelitte imagery derived map on polygon of interest. User can select one or multiple polygon object on the map canvas and request maps creation. For more detailed information, please see the [user documentation](https://developer.geosys.com/docs/qgis-plugin-doc/ZG9jOjY3MzU1MA-get-analytics-on-the-map). 
 
-Here is an example of QGIS with field level maps
+Here is an example of ArcGIS with field level maps
 <p align="center">
   <a href="https://earthdailyagro.com/geosys/">
     <img src="https://raw.githubusercontent.com/GEOSYS/qgis-plugin-doc/master/pictures/doc17.png" alt="Logo" width="800" height="500">
@@ -132,7 +132,7 @@ This project is used by prospect interested to create field level maps in few cl
 ## Resources 
 The following links will provide access to more information:
 - [EarthDaily agro developer portal  ](https://developer.geosys.com/)
-- [QGIS website  ](https://www.qgis.org/en/site/)
+- [ArcGIS Pro](https://pro.arcgis.com/fr/pro-app/2.8/get-started/get-started.htm)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -172,9 +172,9 @@ For any additonal information, please <a href="mailto: sales@earthdailyagro.com"
 [contributors-url]: https://github.com/github_username/repo/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=plastic&logo=appveyor
 [forks-url]: https://github.com/github_username/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/qgis-plugin/repo.svg?style=plastic&logo=appveyor
+[stars-shield]: https://img.shields.io/github/stars/ArcGIS-Plugin/repo.svg?style=plastic&logo=appveyor
 [stars-url]: https://github.com/github_username/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/GEOSYS/qgis-plugin/repo.svg?style=social
+[issues-shield]: https://img.shields.io/github/issues/GEOSYS/ArcGIS-Plugin/repo.svg?style=social
 [issues-url]: https://github.com/github_username/repo/issues
 [license-shield]: https://img.shields.io/github/license/GEOSYS/qgis-plugin
 [license-url]: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -188,7 +188,7 @@ For any additonal information, please <a href="mailto: sales@earthdailyagro.com"
 [language-python-url]: https://pypi.org/ 
 [GitStars-shield]: https://img.shields.io/github/stars/GEOSYS?style=social
 [GitStars-url]: https://img.shields.io/github/stars/GEOSYS?style=social
-[CITest-shield]: https://img.shields.io/github/workflow/status/GEOSYS/qgis-plugin/Continous%20Integration
-[CITest-url]: https://img.shields.io/github/workflow/status/GEOSYS/qgis-plugin/Continous%20Integration
+[CITest-shield]: https://img.shields.io/github/workflow/status/GEOSYS/ArcGIS-Plugin/Continous%20Integration
+[CITest-url]: https://img.shields.io/github/workflow/status/GEOSYS/ArcGIS-Plugin/Continous%20Integration
 
 
