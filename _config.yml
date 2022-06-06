@@ -12,3 +12,5 @@ include:
   - CONTRIBUTING.md
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
+remote_theme: just-the-docs/just-the-docs
+
