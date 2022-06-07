@@ -16,6 +16,7 @@ remote_theme: just-the-docs/just-the-docs
 logo: "https://earthdailyagro.com/wp-content/uploads/2022/01/Logo.svg"
 heading_anchors: true
 footer_content: "Copyright &copy; 2017-2020 Patrick Marsceill. Distributed by an <a href=\"https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt\">MIT license.</a>"
+search_enabled: true
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
@@ -27,4 +28,24 @@ gh_edit_link_text: "Edit this page on GitHub."
 gh_edit_repository: "https://github.com/GEOSYS/ArcGIS-plugin" # the github URL for your repo
 gh_edit_branch: "gh-pages" # the branch that your docs is served from
 
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
 
+plugins:
+  - jekyll-seo-tag
+
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
+  # ignore:
+  #   envs: all
