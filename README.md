@@ -46,7 +46,7 @@
 <!--[![Stargazers][stars-shield]][stars-url]-->
 
 <!-- TABLE OF CONTENTS -->
-<details open>
+<details close>
   <summary>Table of Contents</summary>
   <ol>
     <li>
