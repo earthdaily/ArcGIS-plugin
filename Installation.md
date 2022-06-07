@@ -45,7 +45,6 @@ The installation message will appear on the top of the plugin manager:
 
  - A new option in the plugin menu
 
-
 ![](https://raw.githubusercontent.com/GEOSYS/qgis-plugin-doc/master/pictures/geosys_plugin_option.png)
 
 ## Configuration
@@ -53,18 +52,22 @@ The installation message will appear on the top of the plugin manager:
 
 To configure the plugin, go to <Strong>"Plugin-Geosys Plugin-Options"</Strong>.
 The following screen will appear:
+
 <br>
 <p align="center">
   <img width="500" height="250" src="https://raw.githubusercontent.com/GEOSYS/qgis-plugin-doc/master/pictures/geosys_option_panel.png">
 <br>
 
 The screen will allow you to set the following options:
+  
 - <Strong>User Credentials</Strong> Credentials used for authentication on GEOSYS® Api Platform. The button "Connect" allows to test the validity of registered credentials: if successful the following message will appear.
+  
 <br>
 <p align="center">
   <img width="250" height="250" src="https://raw.githubusercontent.com/GEOSYS/qgis-plugin-doc/master/pictures/Authentication_image.png">
 <br>
 </p>
+
 
 - <Strong>Geographical Region:</Strong> Platform selection as our delivery network includes two physical nodes
     - One in Europe for polygons located in Europe, South America and South Africa
@@ -80,5 +83,6 @@ The screen will allow you to set the following options:
  > ☝️   The output directory must be on your desktop!
 
  The "About" button will display the following screen:
+ 
 
  ![](https://raw.githubusercontent.com/GEOSYS/qgis-plugin-doc/master/pictures/About_button.png)
