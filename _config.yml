@@ -14,4 +14,17 @@ include:
   - PULL_REQUEST_TEMPLATE.md
 remote_theme: just-the-docs/just-the-docs
 logo: "https://earthdailyagro.com/wp-content/uploads/2022/01/Logo.svg"
+heading_anchors: true
+footer_content: "Copyright &copy; 2017-2020 Patrick Marsceill. Distributed by an <a href=\"https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt\">MIT license.</a>"
+
+# Footer last edited timestamp
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+
+# Footer "Edit this page on GitHub" link text
+gh_edit_link: true # show or hide edit this page link
+gh_edit_link_text: "Edit this page on GitHub."
+gh_edit_repository: "https://github.com/GEOSYS/ArcGIS-plugin" # the github URL for your repo
+gh_edit_branch: "gh-pages" # the branch that your docs is served from
+
 
