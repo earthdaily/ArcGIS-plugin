@@ -112,7 +112,7 @@ This project has been testes with ArcGIS xxxx
 <!-- FEATURES -->
 ## Features
 
-The plugin once configured provides an easy way to get satelitte imagery derived map on polygon of interest. User can select one or multiple polygon object on the map canvas and request maps creation. For more detailed information, please see the [user documentation](https://developer.geosys.com/docs/qgis-plugin-doc/ZG9jOjY3MzU1MA-get-analytics-on-the-map). 
+The plugin once configured provides an easy way to get satelitte imagery derived map on polygon of interest. User can select one or multiple polygon object on the map canvas and request maps creation. For more detailed information, please see the [user documentation](https://geosys.github.io/ArcGIS-plugin/Readme.html). 
 
 Here is an example of ArcGIS with field level maps
 <p align="center">
