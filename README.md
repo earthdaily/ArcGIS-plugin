@@ -125,7 +125,12 @@ Here is an example of ArcGIS with field level maps
 
 <!-- USAGE EXAMPLES -->
 ## Use cases
-This project is used by prospect interested to create field level maps in few clicks to better understand the interest and benefits of maps available trought the <'geosys/> API. It has been also used to support various innovation projects on precison agriculture and regeneratice Ag with Organic matter maps used to optimize in field sampling.
+
+                             
+ <p align="left">
+This project is used by prospect interested to create field level maps in few clicks to better understand the interest and benefits of maps available trought the &ltgeosys/&gt API. It has been also used to support various innovation projects in precison agriculture and regenerative Ag with Organic matter maps used to optimize in field sampling.
+</p>
+                                                
 
 
 <!-- RESOURCES -->
