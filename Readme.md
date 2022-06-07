@@ -1,4 +1,10 @@
-# Welcome to the GEOSYS® Plugin for QGIS supporting documentation
+---
+layout: default
+title: Welcome
+nav_order: 1
+---
+
+# Welcome to the GEOSYS® Plugin for ArcGIS Pro supporting documentation
 
 ![logo](https://raw.githubusercontent.com/GEOSYS/Images/main/ArcGIS/banner_geosys_esri.png)
 
