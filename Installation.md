@@ -8,7 +8,7 @@ nav_order: 3
 # Installation
 
 ## How to get the Plugin
-The plugin is available directly through QGIS plugin manager as an official plugin. In QGIS, go to <Strong>“Plugins – Manage and Install Plugins..." </Strong>
+The plugin is available directly through ArcGIS Pro plugin manager as an official plugin. In ArcGIS Pro, go to <Strong>“Plugins – Manage and Install Plugins..." </Strong>
 
 ![](https://raw.githubusercontent.com/GEOSYS/qgis-plugin-doc/master/pictures/doc1.png)
 
