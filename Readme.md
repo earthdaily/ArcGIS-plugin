@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Welcome
+title: Welcome2
 nav_order: 1
 ---
 
