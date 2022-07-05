@@ -4,7 +4,7 @@ title: Pre requisite
 nav_order: 2
 ---
 
-# Pre requisite 
+# Pre requisite 2
 
 
 <!-- theme: info -->
