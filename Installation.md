@@ -39,7 +39,7 @@ The installation message will appear on the top of the plugin manager:
  ### Once your plugin is installed, you will see
 
 
- - A new icon on the toolbar
+ - A new icon on the toolbar !
 
 ![](https://raw.githubusercontent.com/GEOSYS/qgis-plugin-doc/master/pictures/plugin_icon.png)
 
