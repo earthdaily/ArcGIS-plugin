@@ -8,55 +8,27 @@ nav_order: 3
 # Installation
 
 ## How to get the Plugin
-The plugin is available directly through ArcGIS Pro plugin manager as an official plugin. In ArcGIS Pro, go to <Strong>“Plugins – Manage and Install Plugins..." </Strong>
-
-![](https://raw.githubusercontent.com/GEOSYS/qgis-plugin-doc/master/pictures/doc1.png)
-
-The Plugin Manager will appear.
-Type "Geosys" in the search bar.
-
-![](https://raw.githubusercontent.com/GEOSYS/qgis-plugin-doc/master/pictures/doc2.jpg)
-
-> ☝️ You can also get plugin binaries and source code on the [Git repository](https://github.com/GEOSYS/qgis-plugin) of the plugin. In this case please select <Strong>“Clone and download”</Strong> to get a zip archive of the plugin. 
-In the plugin manager, you will have to select the option “Install from Zip” 
-<br>
-<p align="center">
-  <img width="150" height="300" src="https://raw.githubusercontent.com/GEOSYS/qgis-plugin-doc/master/pictures/doc3.jpg">
-</p>
-
-Then select the archive just downloaded and hit <Strong>"Install Plugin"</Strong>
-<p align="center">
-  <img width="600" height="300" src="https://raw.githubusercontent.com/GEOSYS/qgis-plugin-doc/master/pictures/doc4.jpg">
-</p>
-
-The installation message will appear on the top of the plugin manager:
-<p align="center">
-  <img width="600" height="300" src="https://raw.githubusercontent.com/GEOSYS/qgis-plugin-doc/master/pictures/doc5.png">
-</p>
+The plugin is available directly through the ArcGIS Pro Marketplace [here.](https://www.esri.com/en-us/arcgis-marketplace/overview)
 
 ## Plugin Installed
 
  ### Once your plugin is installed, you will see
 
-
  - A new icon on the toolbar !
 
-![](https://raw.githubusercontent.com/GEOSYS/qgis-plugin-doc/master/pictures/plugin_icon.png)
-
- - A new option in the plugin menu
-
-![](https://raw.githubusercontent.com/GEOSYS/qgis-plugin-doc/master/pictures/geosys_plugin_option.png)
+![](https://github.com/GEOSYS/Images/blob/main/ArcGIS/Icon_toolbar.png)
 
 ## Configuration
 
 
-To configure the plugin, go to <Strong>"Plugin-Geosys Plugin-Options"</Strong>.
+To configure the plugin, go to the <Strong>"Plugin Geosys setting"</Strong>.
 The following screen will appear:
 
 <br>
 <p align="center">
-  <img width="500" height="250" src="https://raw.githubusercontent.com/GEOSYS/qgis-plugin-doc/master/pictures/geosys_option_panel.png">
+  <img width="500" height="800" src="https://github.com/GEOSYS/Images/blob/main/ArcGIS/ArcGIS_setting.png">
 <br>
+</p>
 
 The screen will allow you to set the following options:
   
@@ -64,15 +36,13 @@ The screen will allow you to set the following options:
   
 <br>
 <p align="center">
-  <img width="250" height="250" src="https://raw.githubusercontent.com/GEOSYS/qgis-plugin-doc/master/pictures/Authentication_image.png">
+  <img width="300" height="200" src="https://raw.githubusercontent.com/GEOSYS/qgis-plugin-doc/master/pictures/Authentication_image.png">
 <br>
 </p>
 
 
-- <Strong>Geographical Region:</Strong> Platform selection as our delivery network includes two physical nodes
-    - One in Europe for polygons located in Europe, South America and South Africa
-    - One in the U.S. for polygons located in North America and Australia
- > ☝️  In case of testing on our pre-production platform, please select **"Use testing service"** and **"US"**.
+- <Strong>Test Service:</Strong> Define the US platform delivery network. 
+ > ☝️  In case of testing on our pre-production platform, please select **"Use testing service"**.
 
 
  - <Strong>Coverage Parameters:</Strong> The coverage parameters allow to set crop type and sowing date that will be used as parameters in the API request.
@@ -82,7 +52,5 @@ The screen will allow you to set the following options:
  - <Strong>Map output directory:</Strong> The map output directory is the folder where all exported data will be stored for further access and analysis.
  > ☝️   The output directory must be on your desktop!
 
- The "About" button will display the following screen:
+  The "About" button will redirect you to our website for more information about EarthDaily Agro
  
-
- ![](https://raw.githubusercontent.com/GEOSYS/qgis-plugin-doc/master/pictures/About_button.png)
