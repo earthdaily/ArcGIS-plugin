@@ -16,7 +16,7 @@ The plugin is available directly through the ArcGIS Pro Marketplace [here.](http
 
  - A new icon on the toolbar
 
-![](https://github.com/GEOSYS/Images/blob/main/ArcGIS/Icon_toolbar.png)
+![](https://raw.githubusercontent.com/GEOSYS/Images/main/ArcGIS/Icon_toolbar.png)
 
 ## Configuration
 
