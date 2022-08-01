@@ -12,7 +12,7 @@ The plugin is available directly through the ArcGIS Pro Marketplace [here.](http
 
 ## Plugin Installed
 
- ### Once your plugin is installed, you will see
+Once your plugin is installed, you will see :
 
  - A new icon on the toolbar
 
@@ -26,7 +26,7 @@ The following screen will appear:
 
 <br>
 <p align="center">
-  <img width="500" height="800" src="https://raw.githubusercontent.com/GEOSYS/Images/main/ArcGIS/ArcGIS_setting.png"
+  <img width="500" height="800" src="https://raw.githubusercontent.com/GEOSYS/Images/main/ArcGIS/ArcGIS_setting.png">
 <br>
 </p>
 
