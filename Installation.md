@@ -26,7 +26,7 @@ The following screen will appear:
 
 <br>
 <p align="center">
-  <img width="500" height="800" src="https://github.com/GEOSYS/Images/blob/main/ArcGIS/ArcGIS_setting.png"
+  <img width="500" height="800" src="https://raw.githubusercontent.com/GEOSYS/Images/main/ArcGIS/ArcGIS_setting.png"
 <br>
 </p>
 
