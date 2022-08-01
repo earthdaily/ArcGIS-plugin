@@ -6,7 +6,7 @@ nav_order: 4
 
 # Get analytics on the map
 
-The following sections will guide you through the steps to add layers in QGIS map view. Please be sure to have the plugin panel visible.
+The following sections will guide you through the steps to add layers in ArcGIS pro map view. Please be sure to have the plugin panel visible.
 
 ## Select Polygon(s)
 
@@ -63,10 +63,6 @@ It is also possible to filter by sensor used to acquire data, for example if use
 The last parameters are the start and end date for imagery selection. It allows you to select the date range for image selection. This is important to limit the size of the response.
 
 When all search parameters are defined, you can hit the <Strong>“Search map”</Strong> button
-
-The <Strong>“Help”</Strong> button triggers the display of the following screen.
-
-![](https://raw.githubusercontent.com/GEOSYS/qgis-plugin-doc/master/pictures/help_button.png)
 
 After hitting the <Strong>"Search map"</Strong> button, the plugin will call GEOSYS® Platform for each polygon (layer or selection) to check images available: this is what is called the <Strong>Coverage</Strong> of the polygon.
 
@@ -137,10 +133,6 @@ Here is an example of maps loaded on the map view with the first hotspot option,
 Here is an example of maps loaded on the map view with the second hotspot option, one spot for each polygon:
 
 ![](https://raw.githubusercontent.com/GEOSYS/qgis-plugin-doc/master/pictures/all_hotspot.png)
-
-
-![](https://raw.githubusercontent.com/GEOSYS/qgis-plugin-doc/master/pictures/doc21.png)
-
 
 
 
