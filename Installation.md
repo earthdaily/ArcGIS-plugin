@@ -14,7 +14,7 @@ The plugin is available directly through the ArcGIS Pro Marketplace [here.](http
 
  ### Once your plugin is installed, you will see
 
- - A new icon on the toolbar !
+ - A new icon on the toolbar
 
 ![](https://github.com/GEOSYS/Images/blob/main/ArcGIS/Icon_toolbar.png)
 
