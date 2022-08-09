@@ -8,7 +8,18 @@ nav_order: 3
 # Installation
 
 ## How to get the Plugin
-The plugin is available directly through the ArcGIS Pro Marketplace [here.](https://www.esri.com/en-us/arcgis-marketplace/overview)
+
+The plugin is available:
+ - as a package on the Github repository of the project: https://github.com/GEOSYS/ArcGIS-plugin/releases. To install it, just download the latest version on the laptop with ArcGIS Pro and double click on the add in and confirm the installation.
+
+<br>
+<p align="center">
+  <img width="300" height="200" src="https://raw.githubusercontent.com/GEOSYS/Images/main/ArcGIS/ArcGIS_Installation_20220808.PNG">
+<br>
+</p>
+
+
+ - through the ArcGIS Pro Marketplace [here.](https://www.esri.com/en-us/arcgis-marketplace/overview)
 
 ## Plugin Installed
 
