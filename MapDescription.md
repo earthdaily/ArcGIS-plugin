@@ -1,4 +1,4 @@
-# Map Description
+# Map type Description
 
 ## NDVI Map
 
