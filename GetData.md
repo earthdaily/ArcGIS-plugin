@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Get field maps 
+title: Get content on the map 
 nav_order: 4
 ---
 
