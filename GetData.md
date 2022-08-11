@@ -14,7 +14,7 @@ GEOSYS® Platform offers polygon-based maps creation capabilities. You need to h
 
 Within this layer, you can if needed define a selection using QGIS object selection tools.
 
-![](https://raw.githubusercontent.com/GEOSYS/Images/main/ArcGIS/ArcGIS_searchCriteria_20220808.PNG)
+![](https://raw.githubusercontent.com/GEOSYS/Images/main/ArcGIS/ArcGIS_coverage_search20220811.png)
 
 
 On the <Strong>“Geosys plugin – Coverage parameter”</Strong> panel, you will be able to select the layer containing polygons you want to extract maps for. By default, the first layer in view will be selected. The `drop down` list will contain <Strong>only polygon layers in view</Strong>.
