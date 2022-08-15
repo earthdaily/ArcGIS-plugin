@@ -38,7 +38,7 @@
 [![CITest][CITest-shield]][CITest-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![pages-build-deployment][Documentationstatus][CIDocumentation]
+[![pages-build-deployment][Documentationstatus]][CIDocumentation]
   
 </div>
 
@@ -180,8 +180,7 @@ For any additonal information, please <a href="mailto: sales@earthdailyagro.com"
 [forks-url]: https://github.com/github_username/repo/network/members
 [stars-shield]: https://img.shields.io/github/stars/ArcGIS-Plugin/repo.svg?style=plastic&logo=appveyor
 [stars-url]: https://github.com/github_username/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/GEOSYS/ArcGIS-Plugin/repo.svg?style=social
-[Documentationstatus]: https://github.com/GEOSYS/ArcGIS-plugin/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages                                
+[issues-shield]: https://img.shields.io/github/issues/GEOSYS/ArcGIS-Plugin/repo.svg?style=social                             
 [issues-url]: https://github.com/github_username/repo/issues
 [license-shield]: https://img.shields.io/github/license/GEOSYS/qgis-plugin
 [license-url]: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -198,5 +197,6 @@ For any additonal information, please <a href="mailto: sales@earthdailyagro.com"
 [CITest-shield]: https://img.shields.io/github/workflow/status/GEOSYS/ArcGIS-Plugin/Continous%20Integration
 [CITest-url]: https://img.shields.io/github/workflow/status/GEOSYS/ArcGIS-Plugin/Continous%20Integration
 [CIDocumentation]: https://github.com/GEOSYS/ArcGIS-plugin/actions/workflows/pages/pages-build-deployment
+[Documentationstatus]: https://github.com/GEOSYS/ArcGIS-plugin/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages  
 
 
