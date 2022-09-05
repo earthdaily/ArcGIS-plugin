@@ -100,13 +100,13 @@ The ArcGIS Pro plugin project aims to provide an easy and ready to use connector
 
 To be able to get maps within ArcGIS Pro, please make sure you have valid credentials. If you need to get trial access, please register [here](https://earthdailyagro.com/geosys-api/#get-started).
 
-This project has been testes with ArcGIS xxxx
+This project has been testes with ArcGIS pro 2.7 
 
 ### Installation
 
-1. Within the ArcGIS 
+1. The plugin is available directly through the ArcGIS Pro Marketplace [here](https://www.esri.com/en-us/arcgis-marketplace/overview) 
    
-2. Manual install
+2. [Installation](https://geosys.github.io/ArcGIS-plugin/Installation.html)
    
 <p align="right">(<a href="#top">back to top</a>)</p>
    
