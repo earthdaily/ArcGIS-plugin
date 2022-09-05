@@ -15,7 +15,7 @@ nav_order: 2
 <!-- theme: info -->
 
 > ### Minimun Requirement
-> The EartDaily Agro ArcGIS Pro Plugin has been tested with ArcGIS pro Release 2.9 Despite our effort to maintain the plugin fully functional, you might experience regression on further version. 
+> The EartDaily Agro ArcGIS Pro Plugin has been tested with ArcGIS pro 2.7. Despite our effort to maintain the plugin fully functional, you might experience regression on further version. 
 
 <!-- theme: info -->
 
