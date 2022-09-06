@@ -1,0 +1,51 @@
+﻿<ArcGIS defaultAssembly="Geosys Plugin.dll" defaultNamespace="Geosys_Plugin" xmlns="http://schemas.esri.com/DADF/Registry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/Program%20Files/ArcGIS/Pro/bin/ArcGIS.Desktop.Framework.xsd">
+	<AddInInfo id="{2f9e5689-4f65-4417-908b-5ca8a143ffc2}" version="1.0.0" desktopVersion="2.7">
+		<Name>Geosys_Plugin</Name>
+		<Description>Geosys_Plugin description</Description>
+		<Image>Images\icon.png</Image>
+		<Author>arx iT</Author>
+		<Company>arx iT</Company>
+		<Date>2022/09/06 09:00:00</Date>
+		<Subject>Framework</Subject>
+		<!-- Note subject can be one or more of these topics:
+                    Content, Framework, Editing, Geodatabase, Geometry, Geoprocessing, Layouts, Map Authoring, Map Exploration -->
+	</AddInInfo>
+	<modules>
+		<insertModule id="Geosys_Plugin_Module" className="Module1" autoLoad="false" caption="Module1">
+			<!-- uncomment to have the control hosted on a separate tab-->
+			<tabs>
+				<!--<tab id="Geosys_Plugin_Tab1" caption="New Tab">
+          <group refID="Geosys_Plugin_Group1"/>
+        </tab>-->
+			</tabs>
+			<groups>
+				<!-- comment this out if you have no controls on the Addin tab to avoid
+              an empty group-->
+				<group id="Geosys_Plugin_Group1" caption="Geosys" appearsOnAddInTab="true">
+					<!-- host controls within groups -->
+					<button refID="Geosys_Plugin_Views_Plugin_Plugin_ShowButton" size="large" />
+					<button refID="Geosys_Plugin_Views_Settings_Settings" size="large" />
+				</group>
+			</groups>
+			<controls>
+				<!-- add your controls here -->
+				<button id="Geosys_Plugin_Views_Plugin_Plugin_ShowButton" caption="Geosys Plugin" className="Geosys_Plugin.Views.Plugin.Plugin_ShowButton" loadOnClick="true" smallImage="Images/icon.png" largeImage="Images/icon.png">
+					<tooltip heading="Open Geosys Plugin">
+						Open Geosys Plugin<disabledText />
+					</tooltip>
+				</button>
+				<button id="Geosys_Plugin_Views_Settings_Settings" caption="Settings" className="Geosys_Plugin.Views.Settings.ShowSettings" loadOnClick="true" smallImage="Images/icon.png" largeImage="Images/icon.png">
+					<tooltip heading="Tooltip Heading">
+						Tooltip text<disabledText />
+					</tooltip>
+				</button>
+			</controls>
+			<panes></panes>
+			<dockPanes>
+				<dockPane id="Geosys_Plugin_Views_Plugin_Plugin" caption="Geosys Plugin" className="Geosys_Plugin.Views.Plugin.PluginViewModel" dock="group" dockWith="esri_core_projectDockPane">
+					<content className="Geosys_Plugin.Views.Plugin.PluginView" />
+				</dockPane>
+			</dockPanes>
+		</insertModule>
+	</modules>
+</ArcGIS>

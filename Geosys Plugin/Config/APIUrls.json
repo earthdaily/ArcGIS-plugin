@@ -1,0 +1,27 @@
+{
+  "Authentication": {
+    "BaseUrl": "https://identity.geosys-na.com/v2.1",
+    "BaseTestUrl": "https://identity.preprod.geosys-na.com/v2.1",
+    "GetToken": "connect/token"
+  },
+  "CatalogImagery": {
+    "BaseUrl": "http://api.geosys-na.net/field-level-maps/v4",
+    "BaseTestUrl": "http://api-pp.geosys-na.net/field-level-maps/v4",
+    "BaseReferenceMapImage": "season-fields/{0}/coverage/{1}/base-reference-map/{2}/{3}",
+    "DifferenceMap": "season-fields/{0}/coverage/{1}/base-reference-map/{2}/difference-with/{3}/{4}",
+    "ManagementZonesMap": "season-fields/{0}/management-zones-map/{1}/{2}",
+    "ModelMap": "season-fields/{0}/coverage/{1}/model-map/{2}/n-planned/{3}/{4}",
+    "OrganicMatterMap": "season-fields/{0}/coverage/{1}/organic-matter-map/OM/averageOrganicMatter/0.1/{2}",
+    "ReflectanceMap": "season-fields/{0}/coverage/{1}/reflectance-map/TOC/image.tiff.zip",
+    "SoilMap": "season-fields/{0}/sample/{1}/Shared/{2}/{3}",
+    "TopologyMap": "season-fields/{0}/topology-map/ELEVATION/{1}",
+    "YgmMap": "season-fields/{0}/coverage/{1}/yield-goal-map/YGM/historical-yield-average/{2}/max-yield-goal/{3}/min-yield-goal/{4}/{5}",
+    "YpmMap": "season-fields/{0}/coverage/{1}/yield-variability-map/YPM/historical-yield-average/{2}/{3}",
+    "CatalogImagery": "catalog-imagery"
+  },
+  "Web": {
+    "AboutUrl": "https://earthdailyagro.com/about/",
+    "CredentialUrl": "https://earthdailyagro.com/geosys-api/",
+    "HelpUrl": "https://geosysstg.wpengine.com/arcgis-pro-plugin/"
+  }
+}

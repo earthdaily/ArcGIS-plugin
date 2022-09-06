@@ -1,0 +1,64 @@
+﻿<UserControl x:Class="Geosys_Plugin.Views.Plugin.SearchResultsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:extensions="clr-namespace:ArcGIS.Desktop.Extensions;assembly=ArcGIS.Desktop.Extensions"
+             xmlns:ui="clr-namespace:Geosys_Plugin.Views.Plugin"
+             xmlns:Behaviors="http://schemas.microsoft.com/xaml/behaviors"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300"
+             d:DataContext="{Binding Path=ui.SearchResultsViewModel}">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <extensions:DesignOnlyResourceDictionary Source="pack://application:,,,/ArcGIS.Desktop.Framework;component\Themes\Default.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <Style TargetType="ListBoxItem">
+                <Style.Triggers>
+                    <Trigger Property="ItemsControl.AlternationIndex" Value="0">
+                        <Setter Property="Background" Value="White"/>
+                    </Trigger>
+                    <Trigger Property="ItemsControl.AlternationIndex" Value="1">
+                        <Setter Property="Background" Value="LightGray"/>
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <ListBox x:Name="resultsListBox" ItemsSource="{Binding Results}" AlternationCount="2" VerticalAlignment="Stretch" SelectionMode="Multiple" Height="Auto"
+                 >
+        <Behaviors:Interaction.Triggers>
+            <Behaviors:EventTrigger EventName="SelectionChanged">
+                <Behaviors:InvokeCommandAction Command="{Binding ItemChangedCommand}" />
+            </Behaviors:EventTrigger>
+        </Behaviors:Interaction.Triggers>
+        <ListBox.ItemContainerStyle>
+            <Style TargetType="ListBoxItem">
+                <Setter Property="IsSelected" Value="{Binding IsSelected, Mode=TwoWay}" />
+            </Style>
+        </ListBox.ItemContainerStyle>
+
+        <ListBox.ItemTemplate>
+            <DataTemplate>
+                <Grid >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="180"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20" />
+                        <RowDefinition Height="20"/>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition Height="20"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.RowSpan="4" Grid.Column="0" Source="{Binding ImageSrc}" Stretch="Uniform"></Image>
+                    <TextBlock Grid.Column="1" Grid.Row="0" VerticalAlignment="Center" Text="{Binding SeasonField.Id}" FontWeight="Bold"/>
+                    <TextBlock Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" Text="{Binding Image.Date}"/>
+                    <TextBlock Grid.Column="1" Grid.Row="2" VerticalAlignment="Center" Text="{Binding Image.Sensor}"/>
+                    <TextBlock Grid.Column="1" Grid.Row="3" VerticalAlignment="Center" Text="{Binding CoverageType}" />
+                </Grid>
+            </DataTemplate>
+        </ListBox.ItemTemplate>
+    </ListBox>
+</UserControl>

@@ -1,0 +1,90 @@
+﻿<UserControl x:Class="Geosys_Plugin.Views.Plugin.PluginView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"   
+             xmlns:ui="clr-namespace:Geosys_Plugin.Views.Plugin"
+             xmlns:extensions="clr-namespace:ArcGIS.Desktop.Extensions;assembly=ArcGIS.Desktop.Extensions"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="400"  
+             d:DataContext="{Binding Path=ui.PluginViewModel}">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <extensions:DesignOnlyResourceDictionary Source="pack://application:,,,/ArcGIS.Desktop.Framework;component\Themes\Default.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <DataTemplate DataType="{x:Type ui:CoverageParametersViewModel}">
+                <ui:CoverageParametersView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type ui:SearchResultsViewModel}">
+                <ui:SearchResultsView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type ui:ErrorPanelViewModel}">
+                <ui:ErrorPanelView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type ui:CreateMapViewModel}">
+                <ui:CreateMapView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type ui:InformationPanelViewModel}">
+                <ui:InformationPanelView/>
+            </DataTemplate>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+
+    <DockPanel  LastChildFill="true" KeyboardNavigation.TabNavigation="Local" Height="Auto" VerticalAlignment="Stretch" >
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+            
+                <ContentPresenter Grid.Row="0" Grid.Column="0" Content="{Binding CurrentPage}"/>
+
+                <DockPanel Grid.Row="1" Grid.Column="0">
+                <Button Margin="5" Style="{DynamicResource Esri_SimpleButton}" Content="Help" Command="{Binding HelpCmd}"/>
+                    <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
+                        <Button HorizontalAlignment="Right" Margin="5"  Content="{Binding Button1.Label}" Command="{Binding Button1.CommandButton}">
+                            <Button.Style>
+                                <Style TargetType="{x:Type Button}" BasedOn="{StaticResource Esri_SimpleButton}">
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding Button1.Visible}" Value="False">
+                                            <Setter Property="Visibility" Value="Hidden"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Button.Style>
+                        </Button>
+                        <Button HorizontalAlignment="Right" Margin="5"  Content="{Binding Button2.Label}" Command="{Binding Button2.CommandButton}">
+                            <Button.Style>
+                                <Style TargetType="{x:Type Button}" BasedOn="{StaticResource Esri_SimpleButton}">
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding Button2.Visible}" Value="False">
+                                            <Setter Property="Visibility" Value="Hidden"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Button.Style>
+                        </Button>
+                        <Button HorizontalAlignment="Right" Margin="5" Content="{Binding Button3.Label}" Command="{Binding Button3.CommandButton}">
+                            <Button.Style>
+                                <Style TargetType="{x:Type Button}" BasedOn="{StaticResource Esri_SimpleButton}">
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding Button3.Visible}" Value="False">
+                                            <Setter Property="Visibility" Value="Hidden"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Button.Style>
+                        </Button>
+                    </StackPanel>
+                </DockPanel>
+            </Grid>
+    </DockPanel>
+</UserControl>
