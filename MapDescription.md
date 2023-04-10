@@ -1,4 +1,4 @@
-# Map type Description
+# Map Description
 
 ## NDVI Map
 
@@ -6,7 +6,7 @@ The in-season NDVI map assess crop conditions variablity within the field. The N
 
 <br>
 <p align="center">
-  <img width="500" height="300" src="https://raw.githubusercontent.com/GEOSYS/qgis-plugin-doc/master/pictures/Capture%20d’écran%202022-05-16%20112454.png">
+  <img width="400" src="https://raw.githubusercontent.com/GEOSYS/Images/c233061865ec2c20423f05b05aca379e46a0bff7/QGIS/pictures/Capture%20d’écran%202022-05-16%20112454.png">
 </p>
 
 NDVI is the most common index that analysts use in remote sensing. NDVI is a standardized way to measure healthy vegetation. When you have high NDVI values, you have healthier vegetation. When you have low NDVI, you have less or no vegetation. 
@@ -16,38 +16,32 @@ With the NDVI map API you can adjust the min and max values of the map;
 ----------------------
 ### EVI map
 
-The enhanced vegetation index (EVI) was developed as an alternative vegetation index to address some of the limitations of the NDVI.
-
 <br>
 <p align="center">
-  <img width="500" height="300" src="https://raw.githubusercontent.com/GEOSYS/qgis-plugin-doc/master/pictures/EVI.png">
+  <img width="400" src="https://raw.githubusercontent.com/GEOSYS/Images/c233061865ec2c20423f05b05aca379e46a0bff7/QGIS/pictures/EVI.png">
 </p>
 
-The EVI was specifically developed to: 1. be more sensitive to changes in areas having high biomass (a serious shortcoming of NDVI),2. reduce the influence of atmospheric conditions on vegetation index values, and3. correct for canopy background signals.
+
 
 ----------------------
 ### CVI map
 
- The Chlorophyll vegetation index is a vegetation index correlated to plant chlorophyll activity. The CVI uses the RED/GREEN ratio to represent the relative abundance of vegetation and soil before canopy closure
 
 <br>
 <p align="center">
-  <img width="500" height="300" src="https://raw.githubusercontent.com/GEOSYS/qgis-plugin-doc/master/pictures/Capture%20d’écran%202022-05-16%20112530.png">
+  <img width="400" src="https://raw.githubusercontent.com/GEOSYS/Images/c233061865ec2c20423f05b05aca379e46a0bff7/QGIS/pictures/Capture%20d’écran%202022-05-16%20112530.png">
 </p>
 
-This index has been identified as a high potential index to pilot the last nitrogen input on wheat for protein content, as NDVI is limited due to its saturation at high level canopies.
 
 ----------------------
 ### GNDVI map
 
-GNDVI basically replaces the red piece of standard NDVI collection with a very specific band of light in the green range to obtain different useful information. GNDVI is more sensitive to the variation of chlorophyll content in the crop.
 
 <br>
 <p align="center">
-  <img width="500" height="300" src="https://raw.githubusercontent.com/GEOSYS/qgis-plugin-doc/master/pictures/GNDVI.png">
+  <img width="400" src="https://raw.githubusercontent.com/GEOSYS/Images/c233061865ec2c20423f05b05aca379e46a0bff7/QGIS/pictures/GNDVI.png">
 </p>
 
-It is useful for assessing the canopy variation in biomass, and is an indicator of senescence in case of stress or late maturity stage. This index can be used to analyze crops in mid to late growth stages ,to determine water and nitrogen uptake into the crop canopy.
 
 ----------------------
 ### CVIN 
@@ -55,7 +49,7 @@ The in-season Chlorophyll Vegetation Normalized indexed map is a vegetation inde
 
 <br>
 <p align="center">
-  <img width="500" height="300" src="https://raw.githubusercontent.com/GEOSYS/qgis-plugin-doc/master/pictures/CVIN.png">
+  <img width="400" src="https://raw.githubusercontent.com/GEOSYS/Images/c233061865ec2c20423f05b05aca379e46a0bff7/QGIS/pictures/CVIN.png">
 </p>
 
 ### S2REP map 
@@ -63,7 +57,7 @@ The in-season Sentinel2 Red-Egde Position indexed map is used to estimate the ra
 
 <br>
 <p align="center">
-  <img width="500" height="300" src="https://raw.githubusercontent.com/GEOSYS/qgis-plugin-doc/master/pictures/S2REP_map.png">
+  <img width="400" src="https://raw.githubusercontent.com/GEOSYS/Images/c233061865ec2c20423f05b05aca379e46a0bff7/QGIS/pictures/S2REP_map.png">
 </p>
 
 With the rate of nitrogen uptake and the biomass of the crop (estimated using LAI), the user can calculates the nitrogen nutrition index (NNI) and the nitrogen requirement of the crop at T time. 
@@ -75,7 +69,7 @@ The Yield Goal Map is used to define the yield goal distribution inside the fiel
 
 <br>
 <p align="center">
-  <img width="500" height="300" src="https://raw.githubusercontent.com/GEOSYS/qgis-plugin-doc/master/pictures/YGM.png">
+  <img width="400" src="https://raw.githubusercontent.com/GEOSYS/Images/c233061865ec2c20423f05b05aca379e46a0bff7/QGIS/pictures/YGM.png">
 </p>
 
 This information is used by the grower during the establishment of the inputs plan prior to the season: he can push areas with high potential and decrease areas with low potential. The YGM is used to create variable rates application maps. Based on the yield potential variability of the field, the user can modulate the inputs application on the field.
@@ -88,7 +82,7 @@ The Yield Variability Map shows the yield variability of the field based on an h
 
 <br>
 <p align="center">
-  <img width="500" height="300" src="https://raw.githubusercontent.com/GEOSYS/qgis-plugin-doc/master/pictures/YPM.png">
+  <img width="400"src="https://raw.githubusercontent.com/GEOSYS/Images/c233061865ec2c20423f05b05aca379e46a0bff7/QGIS/pictures/YPM.png">
 </p>
 
 
@@ -104,7 +98,7 @@ The legend is dynamic (going from red to blue), this means the minimum and maxim
 
 <br>
 <p align="center">
-  <img width="500" height="300" src="https://raw.githubusercontent.com/GEOSYS/qgis-plugin-doc/master/pictures/OM_part2.png">
+  <img width="400" src="https://raw.githubusercontent.com/GEOSYS/Images/c233061865ec2c20423f05b05aca379e46a0bff7/QGIS/pictures/OM_part2.png">
 </p>
 
 This information is used by the grower during the establishment of the <Strong>fertilization strategy</Strong>, to plan and modulate the nitrogen fertilization.
@@ -121,7 +115,7 @@ The SAMZ API allows to automatically create a 5 zones SAMZ map based on the most
 
 <br>
 <p align="center">
-  <img width="500" height="300" src="https://raw.githubusercontent.com/GEOSYS/qgis-plugin-doc/master/pictures/SAMZ.png">
+  <img width="400" src="https://raw.githubusercontent.com/GEOSYS/Images/c233061865ec2c20423f05b05aca379e46a0bff7/QGIS/pictures/SAMZ.png">
 </p>
 
 SAMZ analyzes the crops’ vegetation behavior from satellite imagery archives representing multiple years of variable weather patterns and delineates areas with a different behavior.
@@ -155,5 +149,8 @@ the elevation map provide additional element to analyse the fields. Elevations a
 
 <br>
 <p align="center">
-  <img width="300" height="300" src="https://raw.githubusercontent.com/GEOSYS/qgis-plugin-doc/master/pictures/Elevation_map.png">
+ <img width="400" src="https://raw.githubusercontent.com/GEOSYS/Images/c233061865ec2c20423f05b05aca379e46a0bff7/QGIS/pictures/Elevation_map.png"
 </p>
+    
+  
+  
