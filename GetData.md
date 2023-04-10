@@ -14,7 +14,7 @@ GEOSYS® Platform offers polygon-based maps creation capabilities. You need to h
 
 Within this layer, you can if needed define a selection using QGIS object selection tools.
 
-![](https://raw.githubusercontent.com/GEOSYS/Images/main/ArcGIS/ArcGIS_coverage_search20220811.png)
+![](https://raw.githubusercontent.com/GEOSYS/Images/c233061865ec2c20423f05b05aca379e46a0bff7/ArcGIS/ArcGIS_coverage_search20220811.png)
 
 
 On the <Strong>“Geosys plugin – Coverage parameter”</Strong> panel, you will be able to select the layer containing polygons you want to extract maps for. By default, the first layer in view will be selected. The `drop down` list will contain <Strong>only polygon layers in view</Strong>.
@@ -72,7 +72,7 @@ After hitting the <Strong>"Search map"</Strong> button, the plugin will call <ge
 While fetching data the panel will look as below:
 
 
-![](https://raw.githubusercontent.com/GEOSYS/Images/main/ArcGIS/ArcGIS_Searching_20220808.PNG)
+![](https://raw.githubusercontent.com/GEOSYS/Images/c233061865ec2c20423f05b05aca379e46a0bff7/ArcGIS/ArcGIS_Searching_20220808.PNG)
 
 
 
@@ -80,7 +80,7 @@ While fetching data the panel will look as below:
 
 Once all data has been retrieved the plugin panel will display a list of coverage data for each selected field as below
 
-![](https://raw.githubusercontent.com/GEOSYS/Images/main/ArcGIS/ArcGIS_MapResult_20220808.PNG)
+![](https://raw.githubusercontent.com/GEOSYS/Images/c233061865ec2c20423f05b05aca379e46a0bff7/ArcGIS/ArcGIS_MapResult_20220808.PNG)
 
 For each coverage items the following information is available:
 - Map thumbnail on the left
@@ -99,7 +99,7 @@ The button <Strong>"Next"</Strong> allows you to go back to the map extraction p
 
 The <Strong>"Get Map"</Strong> panel offers the oppurtunity to set map creation parameters and map extraction parameters
 
-![](https://raw.githubusercontent.com/GEOSYS/Images/main/ArcGIS/ArcGIS_MapExportCriteria_20220808.PNG)
+![](https://raw.githubusercontent.com/GEOSYS/Images/c233061865ec2c20423f05b05aca379e46a0bff7/ArcGIS/ArcGIS_MapExportCriteria_20220808.PNG)
 
 Map creation parameters are:
 - Yield average for yield variability map creation
@@ -120,21 +120,21 @@ By clicking on the <Strong>"Create Map"</Strong> button, data extraction and loa
 
 Here is an example of maps loaded on the map view:
 
-![](https://raw.githubusercontent.com/GEOSYS/Images/main/ArcGIS/ArcGIS_UIMap_20220808.PNG)
+![](https://raw.githubusercontent.com/GEOSYS/Images/c233061865ec2c20423f05b05aca379e46a0bff7/ArcGIS/ArcGIS_UIMap_20220808.PNG)
 
 The plugin can provide you, as an option, the Hotspots of your field. When hitting the <Strong>"Fetch Hotspots"</Strong> button, you will have two options:
 - Recover the hotspots by polygon
 
-![](https://raw.githubusercontent.com/GEOSYS/Images/main/ArcGIS/ArcGIS_MapExportCriteriaHotspot_20220808.PNG)
+![](https://raw.githubusercontent.com/GEOSYS/Images/c233061865ec2c20423f05b05aca379e46a0bff7/ArcGIS/ArcGIS_MapExportCriteriaHotspot_20220808.PNG)
 
 Here is an example of maps loaded on the map view with the first hotspot option, one spot per polygon:
 
-![](https://raw.githubusercontent.com/GEOSYS/Images/main/ArcGIS/ArcGIS_UIMaphotspotOneperpolygon_20220808.PNG)
+![](https://raw.githubusercontent.com/GEOSYS/Images/c233061865ec2c20423f05b05aca379e46a0bff7/ArcGIS/ArcGIS_UIMaphotspotOneperpolygon_20220808.PNG)
 
 - Recover the hotspots for each polygon part
 Here is an example of maps loaded on the map view with the second hotspot option, one spot for each polygon:
 
-![](https://raw.githubusercontent.com/GEOSYS/Images/main/ArcGIS/ArcGIS_UIMaphotspotOneperpart_20220808.PNG)
+![](https://raw.githubusercontent.com/GEOSYS/Images/c233061865ec2c20423f05b05aca379e46a0bff7/ArcGIS/ArcGIS_UIMaphotspotOneperpart_20220808.PNG)
 
 
 
