@@ -9,7 +9,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/GEOSYS">
+  <a href="https://github.com/earthdaily">
     <img src="https://earthdailyagro.com/wp-content/uploads/2022/01/Logo.svg" alt="Logo" width="400" height="200">
   </a>
 
@@ -21,11 +21,11 @@
     <a href="https://earthdailyagro.com/"><strong>Who we are</strong></a>
     <br />
     <br />
-    <a href="https://github.com/GEOSYS/ArcGIS-plugin>Project description</a>
+    <a href="https://github.com/earthdaily/ArcGIS-plugin>Project description</a>
     ·
-    <a href="https://github.com/GEOSYS/ArcGIS-plugin/issues">Report Bug</a>
+    <a href="https://github.com/earthdaily/ArcGIS-plugin/issues">Report Bug</a>
     ·
-    <a href="https://github.com/GEOSYS/ArcGIS-plugin/issues">Request Feature</a>
+    <a href="https://github.com/earthdaily/ArcGIS-plugin/issues">Request Feature</a>
   </p>
 </p>
 
@@ -106,19 +106,19 @@ This project has been testes with ArcGIS pro 2.7
 
 1. The plugin is available directly through the ArcGIS Pro Marketplace [here](https://www.esri.com/en-us/arcgis-marketplace/overview) 
    
-2. [Installation](https://geosys.github.io/ArcGIS-plugin/Installation.html)
+2. [Installation](https://earthdaily.github.io/ArcGIS-plugin/Installation.html)
    
 <p align="right">(<a href="#top">back to top</a>)</p>
    
 <!-- FEATURES -->
 ## Features
 
-The plugin once configured provides an easy way to get satelitte imagery derived map on polygon of interest. User can select one or multiple polygon object on the map canvas and request maps creation. For more detailed information, please see the [user documentation](https://geosys.github.io/ArcGIS-plugin/Readme.html). 
+The plugin once configured provides an easy way to get satelitte imagery derived map on polygon of interest. User can select one or multiple polygon object on the map canvas and request maps creation. For more detailed information, please see the [user documentation](https://earthdaily.github.io/ArcGIS-plugin/Readme.html). 
 
 Here is an example of ArcGIS with field level maps
 <p align="center">
   <a href="https://earthdailyagro.com/geosys/">
-    <img src="https://raw.githubusercontent.com/GEOSYS/Images/main/ArcGIS/Search_ArcGIS2_20220602.png" alt="Logo" width="800" height="500">
+    <img src="https://raw.githubusercontent.com/earthdaily/Images/main/ArcGIS/Search_ArcGIS2_20220602.png" alt="Logo" width="800" height="500">
   </a>
 </p>
 
@@ -166,7 +166,7 @@ For any additonal information, please <a href="mailto: sales@earthdailyagro.com"
 <!-- COPYRIGHT -->
 ## Copyrights
 
-© 2022 Geosys Holdings ULC, an Antarctica Capital portfolio company | All Rights Reserved.
+© 2024 Geosys Holdings ULC, an Antarctica Capital portfolio company | All Rights Reserved.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -196,7 +196,7 @@ For any additonal information, please <a href="mailto: sales@earthdailyagro.com"
 [GitStars-url]: https://img.shields.io/github/stars/GEOSYS?style=social
 [CITest-shield]: https://img.shields.io/github/workflow/status/GEOSYS/ArcGIS-Plugin/Continous%20Integration
 [CITest-url]: https://img.shields.io/github/workflow/status/GEOSYS/ArcGIS-Plugin/Continous%20Integration
-[CIDocumentation]: https://github.com/GEOSYS/ArcGIS-plugin/actions/workflows/pages/pages-build-deployment
-[Documentationstatus]: https://github.com/GEOSYS/ArcGIS-plugin/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages  
+[CIDocumentation]: https://github.com/earthdaily/ArcGIS-plugin/actions/workflows/pages/pages-build-deployment
+[Documentationstatus]: https://github.com/earthdaily/ArcGIS-plugin/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages  
 
 
